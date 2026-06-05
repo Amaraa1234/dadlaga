@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="350.0" prefWidth="400.0" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller">
+   <children>
+      <VBox layoutX="30.0" layoutY="30.0" spacing="15.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <Label text="Бодлого 7014 Өгөгдсөн цаг, минут, секундыг секунд рүү шилжүүл." wrapText="true" style="-fx-font-size: 13px;" />
+            
+            <TextField fx:id="hoursField" maxWidth="150.0" prefHeight="35.0" promptText="цаг" style="-fx-background-radius: 4; -fx-border-color: #D3D3D3; -fx-border-radius: 4;" />
+            
+            <TextField fx:id="minutesField" maxWidth="150.0" prefHeight="35.0" promptText="минут" style="-fx-background-radius: 4; -fx-border-color: #D3D3D3; -fx-border-radius: 4;" />
+            
+            <TextField fx:id="secondsField" maxWidth="150.0" prefHeight="35.0" promptText="Секунд" style="-fx-background-radius: 4; -fx-border-color: #D3D3D3; -fx-border-radius: 4;" />
+            
+            <VBox alignment="CENTER" maxWidth="150.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#handleCalculate" prefHeight="30.0" prefWidth="70.0" text="Бодох" />
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            
+            <Label fx:id="resultLabel" text="Үр дүн: нийт секунд" style="-fx-font-size: 14px; -fx-font-weight: bold;" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

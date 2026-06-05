@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="334.0" prefWidth="364.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller">
+   <children>
+       <!-- Таны ирүүлсэн TextField (fx:id нэмсэн) -->
+       <TextField fx:id="inputField" layoutX="15.0" layoutY="89.0" prefHeight="30.0" prefWidth="122.0" promptText="цаг" />
+       
+       <!-- Тооцоолох товчлуур -->
+       <Button layoutX="158.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleCalculate" prefHeight="30.0" text="Бодох" />
+       
+       <!-- Үр дүн харуулах текст -->
+       <Label fx:id="resultLabel" layoutX="28.0" layoutY="274.0" prefHeight="20.0" prefWidth="277.0" style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Үр дүн: нийт секунд  " />
+      <TextField fx:id="inputField1" layoutX="15.0" layoutY="174.0" prefHeight="30.0" prefWidth="122.0" promptText="Секунд" />
+      <TextField fx:id="inputField2" layoutX="14.0" layoutY="130.0" prefHeight="30.0" prefWidth="122.0" promptText="минут" />
+      <Label layoutX="15.0" layoutY="10.0" prefHeight="58.0" prefWidth="306.0" text="Өгөгдсөн цаг, минут, секундыг секунд рүү шилжүүл." />
+   </children>
+</AnchorPane>

@@ -1,0 +1,3 @@
+horse Sharga 5
+sheep Halzan 2
+camel Huren 7
