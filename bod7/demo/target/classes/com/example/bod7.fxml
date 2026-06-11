@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller">
+   <children>
+      <Button layoutX="218.0" layoutY="126.0" mnemonicParsing="false" onAction="#handleCalculate" prefHeight="26.0" prefWidth="87.0" style="-fx-background-color: #87E9FF; -fx-border-color: #131212;" text="Бодолт" />
+      <Label layoutX="33.0" layoutY="26.0" prefHeight="26.0" prefWidth="102.0" text="Бодлого 7101">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputField" layoutX="33.0" layoutY="88.0" promptText="2 тоо оруулна уу" />
+      <Label layoutX="33.0" layoutY="52.0" prefHeight="26.0" prefWidth="219.0" text="Өгөгдсөн 2 бүхэл тооны ихийг ол." />
+      <Label fx:id="resultLabel" layoutX="33.0" layoutY="161.0" prefHeight="26.0" prefWidth="143.0" text="хариулт:" />
+   </children>
+</AnchorPane>
